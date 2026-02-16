@@ -1,12 +1,12 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/TestDb
-    username: postgres
-    password: postgres
+    url: 
+    username: 
+    password: 
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto: validate  # проверяет таблицы, созданные Liquibase
+      ddl-auto: validate
     show-sql: true
     properties:
       hibernate:
